@@ -5,15 +5,36 @@ body{
     display: flex;
 }
 .header {
-    width: 100%;
+    width: 200%;
     height: 60px;
-    background-color: yellow;
+    background-color: white;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 .container {
-    width: 120px;
+    width: 200%;
     height: 100%;
-    background-color: blueviolet;
+    background-color: white;
+
+}
+.header_icon {
+    padding-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu_icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_icon li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul {
+    display: inline-block;
+    margin-right: 20px;
 }
